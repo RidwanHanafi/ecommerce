@@ -1,0 +1,355 @@
+/*ukuran gambar produk*/
+.qqq{
+	object-fit: cover;
+	width: 276px !important;
+	height: 350px;
+}
+.produk_populer{
+	object-fit: cover;
+	width: 430px !important;
+	height: 460px;
+}
+/*Keranjangku*/
+.keranjang_belanja{
+	object-fit: cover;
+	height:76px;
+	overflow:hidden;
+    -moz-border-radius: 10px; 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    display:inline-block;
+}
+/*ukuran gambar detail produk*/
+.detail{
+	object-fit: cover;
+	width: 513px;
+	height: 634px;
+	overflow:hidden;
+    -moz-border-radius: 10px; 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    display:inline-block;
+}
+.block2-pic{
+	overflow:hidden;
+    -moz-border-radius: 10px; 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    display:inline-block;
+}
+/*===============================================================================================*/
+
+/*font*/
+/*nav menu*/
+.main-menu>li>a:hover {
+	color:#734330;
+}
+.main-menu>li>ul>li>a:hover{
+	color:#734330;
+}
+
+/*nama produk dll*/
+.hov-cl1:hover{
+	color:#734330;
+}
+/*kontak*/
+.telepon:hover{
+	color:#734330;
+}
+.jika_kosong{
+	width: 100%;
+	margin-left: 10%;
+	background-size: contain; 
+}
+.profil_pelanggan{
+	font-size: 23px;
+}
+
+/*===============================================================================================*/
+
+/*Keranjang*/
+/*ukuran total number*/
+.wrap-num-product{
+	height: 30px;
+
+}/*ukuran font hapus*/
+.ukuranupdate{
+	font-size: 15px;
+	min-width: 19px;
+	height: 25px;
+	}
+	/*keranjang nav*/
+.jika_kosong{
+	object-fit: cover;
+	width: 200px !important;
+	height: 200px;
+	}
+.header-cart-item-img:hover:after {
+	opacity: 0; 
+}
+
+/*===============================================================================================*/
+
+/*Panigation*/
+/*panah kanan*/
+.fa-chevron-right:hover{
+	border-color: #734330;
+	color:#734330;
+}
+.fa-chevron-right{
+	
+	color:#999999;
+}
+/*panah kiri*/
+.fa-chevron-left:hover{
+	border-color: #734330;
+	color:#734330;
+}
+.fa-chevron-left{
+	color:#999999;
+}
+.berikutnya a{
+	color:#999999;
+	width: 35px;
+	height: 36px;
+	justify-content: center;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	
+}
+.berikutnya a:hover{
+	color:#fff;
+}
+
+/*===============================================================================================*/
+
+/*Warna Tombol*/
+.block1-txt {
+	background-color: rgba(214, 194, 103, 0.0);
+}
+
+.block1-txt:hover {
+	background-color: rgba(214, 194, 103, 0.8);
+}
+.bg1{
+	background-color: #734330;
+}
+.btn-coklat:hover {
+	background-color: #734330;
+}
+/*warna tombol hapus*/
+.hov-btn22:hover{
+	background-color:#cf1f6b;
+	border-color: #cf1f6b;
+	color:#fff;
+}
+
+/*===============================================================================================*/
+
+/*Menu Registrasi*/
+/*icon password user*/
+.icon_password{
+	vertical-align: middle;
+	position: absolute;
+	top: calc(50% - 12px);
+	left: 28px;
+}
+.icon_phone{
+	vertical-align: middle;
+	position: absolute;
+	top: calc(50% - 12px);
+	left: 28px;
+	width: 10%;
+}
+.ukuranfont{
+	font-size: 12px;
+	text-align: left;
+	padding-left: 20px;
+}
+.font_masuk{
+	font-size: 12px;
+}
+.font_masuk:hover{
+	color:#734330;
+}
+
+/*===============================================================================================*/
+
+/*Checkout*/
+
+.ukr_checkout_input{
+	height:30px;
+	width: 100%;
+}
+
+/*===============================================================================================*/
+
+/*tombol detail transaksi dashboard pelanggan*/
+.ukr-btn-detail{
+	padding-left: 23px;
+	padding-right: 23px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+/*riwayat transaksi*/
+.ukuran_tabel_riwayat{
+	flex: 0 0 94%;
+}
+.kolom{
+	text-align: center;
+	align-content: center;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 15px;
+}
+/*data*/
+.konten_data{
+	text-align: left;
+}
+.kiri{
+	width:34%;
+}
+/*frame profil pelanggan*/
+.profil-frame-2{
+	width: 100%;
+	
+}
+
+
+/*warna font status bayar*/
+.Belum{
+	color:red;
+	font-weight: bold;
+}
+.Sudah{
+	color:green;
+}
+/*ukuran password minimal 6 karakter*/
+.ukr{
+	font-size: 12px;
+	margin-left: 0px;
+	text-align: left;
+	padding-left: 43px;
+
+}
+
+/*===============================================================================================*/
+/*Transaksi/list*/
+.menjorok{
+	margin-left: 20px;
+}
+/*===============================================================================================*/
+
+/*Detail Transaksi*/
+.card-detail-transaksi{
+  padding-right:10px;
+  padding-left: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border :none;
+}
+.center{
+  table-layout: auto;
+  width: 100%;
+  text-align: center;
+}
+.title-right {
+    float: right;
+    padding-right: 50px;
+    font-size: 14px;
+}
+.card-title, .card-text{
+  padding-left: 50px;
+}
+.space-betwn:before {
+    /* This doesn't work because of border-collapse */
+    line-height:2em;
+    content:".";
+    color:white; /* bacground color */
+    display:block;
+
+}
+.bold-center{
+	text-align: center;
+	padding: 5px;
+}
+.unbold-center{
+	font-weight: normal;
+	text-align: center;
+	padding: 5px;
+}
+.unbold{
+	font-weight: normal;
+	text-align: left;
+	padding: 5px;
+}
+.unbold-1{
+	font-weight: normal;
+	text-align: left;
+	padding: 5px;
+}
+.unbold-2{
+	font-weight: normal;
+	text-align: right;
+	padding: 10px;
+}
+
+
+.bold-1{
+	text-align: left;
+	padding:5px;
+
+}
+
+
+.padding-5{
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-left: 5px;
+	text-align: right;
+
+}
+.padding-15{
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-left: 15px;
+	text-align: right;
+	width: 150px;
+
+}
+.p-k-k{
+	padding-left: 200px;
+	padding-right: 200px;
+				
+}
+.s-pesanan{
+	justify-content: center;
+}
+/*===============================================================================================*/
+/*warna active di slidebar*/
+.sidebar-dark-primary .nav-sidebar>.nav-item>.nav-link.active, .sidebar-light-primary .nav-sidebar>.nav-item>.nav-link.active{
+	background-color: #ffc107 !important;
+    color: #1f2d3d !important;         
+}
+/*===============================================================================================*/
+.cetak-head{
+	font-size: 12px;
+    font-family: Helvetica,sans-serif;
+}
+.cetak{
+	width: 19cm;
+	height: 27cm;
+	padding: 1cm;
+}
+.cetak-tabel{
+	border: solid thin #000;
+    border-collapse:  collapse;
+}
+@media print{
+	.hapus-tombol, footer{
+		display: none;
+	}
+
+}
+/*===============================================================================================*/
