@@ -399,7 +399,7 @@ class Snap extends CI_Controller {
         $config['protocol'] = 'smtp';
         $config['smtp_host'] = 'ssl://smtp.googlemail.com';
         $config['smtp_user'] = 'rambocool888@gmail.com';
-        $config['smtp_pass'] = 'hondayamahano123';
+        $config['smtp_pass'] = '***********';
         $config['smtp_port'] = 465;
         $config['mailtype'] = 'html';
 		$config['charset'] = 'utf-8';
